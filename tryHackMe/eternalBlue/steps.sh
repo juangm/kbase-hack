@@ -13,20 +13,9 @@ case "$1" in
   2)
     echo "ms17-010"
     ;;
-  # Find explotation code against the machine
+  # Using  metasploit
   3)
-    echo "Initiate metasploit -> msfconsole"
-    echo "Search for vulnerability -> search ms17-010"
-    echo "Solution -> exploit/windows/smb/ms17_010_eternalblue"
-    ;;
-  # Discover required option
-  4)
-    echo "Select the exploit that we discover before -> use exploit/xxx"
-    echo "Run the commoand -> show options"
-    echo "Solution -> Missing required param RHOSTS"
-    echo "Set the variable -> set RHOSTS $MACHINE_IP"
-    ;;
-  # Run the exploit
+    echo "Check solutions.md"
   *)
     echo "Select proper step"
     ;;

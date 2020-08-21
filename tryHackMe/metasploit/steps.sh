@@ -8,7 +8,7 @@ case "$1" in
   # Run NMAP and feed results into our database
   1)
     # Make sure msfdb is initialized
-    echo "start metaexploit console => msfconsole"
+    echo "start metasploit console => msfconsole"
     echo "db_nmap -sV $MACHINE_IP"
     ;;
   # Service running in port 135
