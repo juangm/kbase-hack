@@ -1,5 +1,11 @@
 # Eternal Blue Room - TryHackMe
 
+## Task 1 - Recon
+
+- Scan the machine using NMAP
+- How many ports are under 100 -> `3`
+- What is this machine vulnerable to -> `ms17-010`
+
 ## Task 2 - Gain Access
 
 - Initiate metasploit -> `msfconsole`
@@ -15,3 +21,5 @@
 - Run the `exploit`
 
 ## Task 3 - Escalate
+
+- module to convert shell to meterpreter -> `use post/multi/manage/shell_to_meterpreter`
